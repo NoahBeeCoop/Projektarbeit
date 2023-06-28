@@ -15,19 +15,24 @@ header {
   padding: 40px;
   margin: 20px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
 }
 
-.header-content {
-  display: flex;
-  align-items: center;
+#h1_header {
+  size: 10%;
+}
+
+#logo {
+  size: 10%;
+  align-items: left;
 }
 
 nav {
   border: 1px solid #333; /* Add border around the navigation */
-  padding: 10px; /* Add padding inside the navigation */
+  padding: 20px; /* Add padding inside the navigation */
   width: 500px;
+  margin: 20px;
   
 }
 
@@ -88,6 +93,7 @@ main {
 }
 #pippenimg {
 }
+
 
 section {
   margin-bottom: 20px;
