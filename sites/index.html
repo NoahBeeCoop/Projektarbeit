@@ -1,87 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
     <title>Scottie Pippen</title>
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
   </head>
   <body>
     <header>
-      <img id="logo" src="/img/logo.png" alt="logo" />
-      <h1 id="h1_header">Scottie Pippen</h1>
+      <div class="header-container">
+        <img id="logo" src="/img/logo.png" alt="logo" />
+        <h1 id="h1_header">Scottie Pippen</h1>
+      </div>
     </header>
 
     <nav>
       <ul>
-        <li><a href="#Legacy">Legacy</a></li>
-        <li><a href="#Career">Career</a></li>
-        <li><a href="#Extra">Extra</a></li>
+        <li><a class="nav-link" href="/sites/legacy.html">Legacy</a></li>
+        <li><a class="nav-link" href="/sites/career.html">Career</a></li>
+        <li><a class="nav-link" href="/sites/extra.html">Extra</a></li>
+        <li><a class="nav-link" href="/sites/records.html">Records</a></li>
       </ul>
     </nav>
 
     <main>
-      <section id="Legacy">
-        <h2>Legacy</h2>
-        <p>
-          Sed tempus iaculis malesuada. In iaculis, turpis ac scelerisque
-          pretium, ex dui accumsan turpis, nec sodales nisl sapien sit amet ex.
-          Fusce porttitor turpis vitae ex convallis, feugiat tincidunt nibh
-          euismod. Pellentesque vestibulum porta magna quis porta. Nunc sit amet
-          eros aliquet, laoreet ante facilisis, aliquam enim. Sed fringilla
-          justo non mi vestibulum, ac laoreet sapien dapibus. Morbi accumsan
-          rutrum diam, nec ornare nulla tincidunt et. Mauris bibendum, justo et
-          bibendum maximus, lectus justo auctor nunc, nec porta libero erat
-          condimentum mi. Sed ultricies venenatis auctor. Class aptent taciti
-          sociosqu ad litora torquent per conubia nostra, per inceptos
-          himenaeos. Nulla vel sagittis nisi. Duis pharetra sem orci, id
-          elementum ligula tincidunt ac.
-        </p>
-      </section>
+      <form action="https://formspree.io/f/mdorndvd" method="POST">
+        <div class="container">
+          <h2>Subscribe to our Newsletter</h2>
+          <p>Lorem ipsum..</p>
+        </div>
 
-      <section id="Career">
-        <h2>Career</h2>
-        <p>
-          Sed tempus iaculis malesuada. In iaculis, turpis ac scelerisque
-          pretium, ex dui accumsan turpis, nec sodales nisl sapien sit amet ex.
-          Fusce porttitor turpis vitae ex convallis, feugiat tincidunt nibh
-          euismod. Pellentesque vestibulum porta magna quis porta. Nunc sit amet
-          eros aliquet, laoreet ante facilisis, aliquam enim. Sed fringilla
-          justo non mi vestibulum, ac laoreet sapien dapibus. Morbi accumsan
-          rutrum diam, nec ornare nulla tincidunt et. Mauris bibendum, justo et
-          bibendum maximus, lectus justo auctor nunc, nec porta libero erat
-          condimentum mi. Sed ultricies venenatis auctor. Class aptent taciti
-          sociosqu ad litora torquent per conubia nostra, per inceptos
-          himenaeos. Nulla vel sagittis nisi. Duis pharetra sem orci, id
-          elementum ligula tincidunt ac.
-        </p>
-        <img src="/img/jersey.png" alt="Jersey" />
-      </section>
-
-      <section id="Extra">
-        <h2>Extra</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non
-          velit a sem auctor volutpat vitae in nisl. Maecenas aliquam dapibus
-          arcu, non blandit justo pharetra vel. Praesent dictum mauris sed lorem
-          dictum, a malesuada lacus vestibulum. Ut sit amet ultricies diam.
-          Fusce ac urna sed dolor vehicula condimentum. Donec id nisi imperdiet
-          tortor dignissim rhoncus. Nunc bibendum porttitor risus, a scelerisque
-          libero tincidunt nec. Nulla id lorem tincidunt risus scelerisque
-          ultrices. Quisque lacinia nisi ultricies nibh vulputate, nec pulvinar
-          velit consectetur. Nunc pharetra ultrices urna eget rutrum. Sed
-          ultrices nisl libero, sit amet rutrum odio suscipit a. Suspendisse non
-          mi vel leo sollicitudin varius. Suspendisse vitae sapien sit amet
-          libero scelerisque porta. Orci varius natoque penatibus et magnis dis
-          parturient montes, nascetur ridiculus mus. Aliquam est leo, posuere
-          vel tincidunt eget, venenatis et leo. Vivamus aliquam ante id lobortis
-          semper.
-        </p>
-        <img id="pippenimg" src="/img/scottie-pippen.jpg" alt="pippen" />
-      </section>
+        <div class="container" style="background-color: white">
+          <input type="text" placeholder="Name" name="name" required />
+          <input type="text" placeholder="Email address" name="mail" required />
+        </div>
+        <div class="container">
+          <input type="submit" value="Subscribe" />
+        </div>
+      </form>
     </main>
-
     <footer>
-      <p>©Website by Noah Beetschen. All rights reserved.</p>
-      <a href="mailto:noahlinusb@gmail.com">Contact</a>
+      <div class="footer-container">
+        <p>©Website by Noah Beetschen. All rights reserved.</p>
+        <a href="mailto:noahlinusb@gmail.com">Contact</a>
+      </div>
     </footer>
   </body>
 </html>

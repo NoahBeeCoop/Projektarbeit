@@ -29,8 +29,8 @@ header {
 }
 
 nav {
-  border: 1px solid #333; /* Add border around the navigation */
-  padding: 20px; /* Add padding inside the navigation */
+  border: 1px solid #333; 
+  padding: 20px; 
   width: 500px;
   margin: 20px;
   
@@ -41,24 +41,25 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction: column; /* Make the navigation vertical */
+  flex-direction: column; 
 }
 
 nav li {
-  display: block; /* Change to block to make each item take full width */
-  margin-bottom: 10px; /* Add some spacing between items */
+  display: block; 
+  margin-bottom: 10px; 
 }
 
 nav a {
   color: #333;
   text-decoration: none;
-  padding: 10px; /* Increase the padding for bigger size */
+  padding: 10px; 
 }
 
 nav a:hover {
   background-color: #333;
   color: #fff;
 }
+
 
 main {
   flex: 1;
@@ -73,15 +74,15 @@ main {
   border: 5px solid #003ce0;
   padding: 10px;
   margin: 10px;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 #Career {
-  width: 1200px;
+  width: 1200px;  
   border: 5px solid blue;
   padding: 10px;
   margin: 10px;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 #Extra {
@@ -91,6 +92,19 @@ main {
   margin: 10px;
   background-color: #fff;
 }
+
+#video {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+  padding: 10px;
+}
+
 #pippenimg {
 }
 
@@ -104,4 +118,37 @@ footer {
   color: #fff;
   padding: 20px;
   text-align: center;
+}
+form {
+  font-family: Arial, sans-serif;
+  border: 1px solid #333;
+  color: #fff;
+}
+
+.container {
+  padding: 20px;
+  background-color: #333;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #aa0404;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
 }
